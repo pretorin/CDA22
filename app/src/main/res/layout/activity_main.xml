@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity" android:gravity="center_vertical" android:id="@+id/layoutPrincipal">
+
+    <TextView
+            android:text="Menu Principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+    <TextView
+            android:text="Mi aplicacion de negocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            android:gravity="center_horizontal"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textNombre"
+            android:gravity="center_horizontal"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/casa" android:id="@+id/imageView"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="match_parent" android:gravity="center" android:id="@+id/layaout2">
+        <Button
+                android:text="SERVICIOS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnServicios"/>
+        <Button
+                android:text="PORTAFOLIO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnPortafolio"/>
+        <Button
+                android:text="ACERCA DE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnAcerca"/>
+        <Button
+                android:text="CONTACTO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnContacto"/>
+        <Button
+                android:text="REDES SOCIALES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/btnRedes"/>
+    </LinearLayout>
+</LinearLayout>
