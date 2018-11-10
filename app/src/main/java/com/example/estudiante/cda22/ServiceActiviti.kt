@@ -11,8 +11,10 @@ class ServiceActiviti : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_service_activiti)
         btnServicios.setOnClickListener {
-            val intent: Intent = Intent(this, ServiceActiviti::class.java)
+            val intent = Intent(this, ServiceActiviti::class.java)
             startActivity(intent)
+
+            //hola..
         }
     }
 }
